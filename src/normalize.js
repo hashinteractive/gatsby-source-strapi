@@ -6,7 +6,7 @@ const extractFields = async (apiURL, store, cache, createNode, touchNode, auth, 
     const field = item[key]
     if (Array.isArray(field)) {
       // add recursion to fetch nested strapi references
-      await Promise.all(field.map(async f => extractFields(apiURL, store, cache, createNode, touchNode, auth, f)))
+      await Promise.all(field.map(async f => await extractFields(apiURL, store, cache, createNode, touchNode, auth, f)))
     } else {
       // image fields have a mime property among other
       // maybe should find a better test

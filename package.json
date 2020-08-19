@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-strapi",
+  "name": "@hashinteractive/gatsby-source-strapi",
   "version": "0.0.12",
   "description": "Gatsby source plugin for building websites using Strapi as a data source",
   "author": {
