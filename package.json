@@ -18,6 +18,9 @@
     "type": "git",
     "url": "git@github.com:hashinteractive/gatsby-source-strapi.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/hashinteractive/gatsby-source-strapi/issues"
   },
@@ -26,7 +29,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel src --out-dir .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "format": "prettier --write 'src/**/*.js'",
     "lint": "eslint src",
     "watch": "babel -w src --out-dir ."
