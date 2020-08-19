@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/gatsby-source-strapi.git"
+    "url": "git@github.com:hashinteractive/gatsby-source-strapi.git"
   },
   "bugs": {
-    "url": "https://github.com/strapi/gatsby-source-strapi/issues"
+    "url": "https://github.com/hashinteractive/gatsby-source-strapi/issues"
   },
   "license": "MIT",
   "homepage": "http://strapi.io",
